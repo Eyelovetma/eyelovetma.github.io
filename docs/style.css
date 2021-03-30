@@ -1,13 +1,19 @@
 body {
-  background-color: lightblue;
+  background-image: url("/docs/eltbackground.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover
+  background-color: #ffffff;
 }
 
 h1 {
-  color: white;
-  text-align: center;
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
 }
