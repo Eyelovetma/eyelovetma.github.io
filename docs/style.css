@@ -1,5 +1,5 @@
 body {
-  background-image: url(eltbackground.jpg);
+  background-image: url('eltbackground.jpg');
   background-position: left center;
   background-repeat: no-repeat;
   background-attachment: fixed;
