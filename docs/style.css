@@ -1,13 +1,53 @@
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
 body {
-  background-color: lightblue;
+  /* Location of the image */
+  background-image: url(docs/eltbackground.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#ffffff;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(eltbackground.jpg) center center cover no-repeat fixed;
+   */
 }
 
-h1 {
-  color: white;
-  text-align: center;
-}
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(docs/eltbackground.jpg);
+  }
+	}
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
+
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+font-style: italic;
