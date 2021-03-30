@@ -1,8 +1,3 @@
 body {
-  background-image: url('docs/eltbackground.jpg');
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   background-color:#000000;
 }
