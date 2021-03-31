@@ -53,9 +53,9 @@
       font-style: normal;
     }
 
-    ul.topnav li a:hover:not(.active) {background-color: #dfdfdf;}
+    ul.topnav li a:hover:not(.active) {background-color: #dfdfdf; opacity: 1;}
 
-    ul.topnav li a.active {background-color: #c4d3bf;}
+    ul.topnav li a.active {background-color: #bbcdb6; opacity: .87;}
 
     ul.topnav li.right {float: right;}
 
@@ -63,6 +63,13 @@
       ul.topnav li.right, 
       ul.topnav li {float: none;}
     }
+     
+     
+     table {
+         border: 0px;
+         background-color: #bbcdb6;
+         opacity: .87
+         }
   </style>
 </head>
 
@@ -75,8 +82,15 @@
   <li class="right"><a class="active" href="#about">Home</a></li>
 </ul>
 
-<div style="padding:0 16px;">
-  <p><b>Eye Love TMA</b></p>
-  <p>hey how’d you get here, this isn’t ready yet</p></div>
+   <div style="overflow-x:auto; padding:0 16px;">
+   <table class="center">
+    <tr>
+      <th><p><b>Eye Love TMA</b></p>
+          <p>hey how’d you get here, this isn’t ready yet</p></th>
+    </tr>
+   </table>
+   </div>
+
+
 </body>
 </html>
